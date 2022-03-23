@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.App-Header-main{
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.Card-item {
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+

@@ -1,9 +1,13 @@
-import NavBar from './components/NavBar'
+import './App.css';
+import ResponsiveAppBar from './components/NavBar'
+import ListProducts from './components/ItemListContainer'
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+        <ResponsiveAppBar /> 
+        <ListProducts />
     </div>
   );
 }
