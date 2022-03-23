@@ -1,7 +1,7 @@
 function CartWidget() {
     return (
         <div>
-            <img src="./public/pictures/shoppincart.jpg" />
+            <img src="../pictures/shoppingcart.jpg" width="40px" hight="40px"/>
         </div>
     );
 }

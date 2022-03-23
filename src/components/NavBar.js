@@ -104,6 +104,9 @@ const ResponsiveAppBar = () => {
               </Button>
             ))}
           </Box>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <CartWidget />
+          </Box>
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
@@ -137,7 +140,6 @@ const ResponsiveAppBar = () => {
         </Toolbar>
       </Container>
     </AppBar>
-    <CartWidget />
     </header>
   );
 };
